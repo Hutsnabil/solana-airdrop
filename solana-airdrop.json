@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Jupiter",
+    "apiUrl": "https://airdrop-api.jup.ag/allocation/${walletAddress}",
+    "logo": "https://pbs.twimg.com/profile_images/1600956334635098141/ZSzYTrHf_400x400.jpg",
+    "sort": "amount",
+  	"zeros": "0",
+    "details": {
+      "path": "data.token_final",
+      "value": "tolowercase"
+    }
+  },    
+  {
+    "name": "Pyth",
+    "apiUrl": "https://airdrop.pyth.network/api/grant/v1/solana_breakdown?identity=${walletAddress}",
+    "logo": "https://pbs.twimg.com/profile_images/1600956334635098141/ZSzYTrHf_400x400.jpg",
+    "sort": "amount",
+  	"zeros": "4",
+    "details": {
+      "path": "data[0].amount"
+    }
+  },
+  {
+    "name": "Bonkmas",
+    "apiUrl": "https://bonkmas.com/api/eligibility?wallet=${walletAddress}",
+    "logo": "https://pbs.twimg.com/profile_images/1600956334635098141/ZSzYTrHf_400x400.jpg",
+    "sort": "eligible",
+  	"zeros": "0",
+    "details": {
+      "path": "eligible"
+    }
+  },
+  {
+    "name": "DYM",
+    "apiUrl": "https://geteligibleuserrequest-xqbg2swtrq-uc.a.run.app/?address=${walletAddress}",
+    "logo": "https://pbs.twimg.com/profile_images/1600956334635098141/ZSzYTrHf_400x400.jpg",
+    "sort": "amount",
+  	"zeros": "0",
+    "details": {
+      "path": "data.amount"
+    }
+  }
+]
