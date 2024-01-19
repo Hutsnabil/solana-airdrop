@@ -15,7 +15,7 @@
     "apiUrl": "https://airdrop.pyth.network/api/grant/v1/solana_breakdown?identity=${walletAddress}",
     "logo": "https://pbs.twimg.com/profile_images/1600956334635098141/ZSzYTrHf_400x400.jpg",
     "sort": "amount",
-  	"zeros": "7",
+  	"zeros": "6",
     "details": {
       "path": "data[0].amount"
     }
