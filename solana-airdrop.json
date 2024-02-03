@@ -7,7 +7,9 @@
   	"zeros": "0",
     "details": {
       "path": "data.token_final",
-      "value": "tolowercase"
+      "value": "tolowercase",
+      "expectedvalue": "0.6"
+      
     }
   },    
   {
@@ -17,7 +19,8 @@
     "sort": "amount",
   	"zeros": "6",
     "details": {
-      "path": "data[0].amount"
+      "path": "data[0].amount",
+      "expectedvalue": "0.5"
     }
   },
   {
@@ -27,7 +30,9 @@
     "sort": "eligible",
   	"zeros": "0",
     "details": {
-      "path": "eligible"
+      "path": "eligible",
+      "expectedvalue": "5000"
+
     }
   },
   {
@@ -38,6 +43,7 @@
   	"zeros": "0",
     "details": {
       "path": "data.amount"
+      "expectedvalue": "4"
     }
   }
 ]
