@@ -42,7 +42,7 @@
     "sort": "amount",
   	"zeros": "0",
     "details": {
-      "path": "data.amount"
+      "path": "data.amount",
       "expectedvalue": "4"
     }
   }
